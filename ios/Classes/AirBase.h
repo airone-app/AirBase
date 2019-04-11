@@ -9,12 +9,6 @@
 #define AirBase_h
 
 
-// 安全工具
-#import "NSArray+Safe.h"
-#import "NSDictionary+Safe.h"
-#import "NSString+Safe.h"
-
-
 // 扩展管理
 #import "NSObject+ClassName.h"
 #import "NSObject+Runtime.h"
