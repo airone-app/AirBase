@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'Example' do
+  pod 'AirRequest'
+  pod 'AirRequestAFImpl'
+
+end
