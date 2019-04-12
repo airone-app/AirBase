@@ -13,6 +13,16 @@
 #pragma mark - < 常用宏 >
 
 
+#pragma mark [ OS ]
+
+#define Air_IOS12_OR_LATER    ( [[[UIDevice currentDevice] systemVersion] doubleValue] >= 12.0 )
+#define Air_IOS11_OR_LATER    ( [[[UIDevice currentDevice] systemVersion] doubleValue] >= 11.0 )
+#define Air_IOS10_OR_LATER    ( [[[UIDevice currentDevice] systemVersion] doubleValue] >= 10.0 )
+#define Air_IOS9_OR_LATER     ( [[[UIDevice currentDevice] systemVersion] doubleValue] >= 9.0 )
+#define Air_IOS8_OR_LATER     ( [[[UIDevice currentDevice] systemVersion] doubleValue] >= 8.0 )
+#define Air_IOS7_OR_LATER     ( [[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0 )
+
+
 #pragma mark - < 设计模式 >
 
 // 单实例宏

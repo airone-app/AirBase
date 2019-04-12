@@ -10,6 +10,8 @@
 
 
 // 扩展管理
+#import "NSObject+AirJSON.h"
+#import "NSObject+AirEncode.h"
 #import "NSObject+ClassName.h"
 #import "NSObject+Runtime.h"
 
@@ -17,7 +19,7 @@
 // 系统工具
 #import "AirBase.h"
 #import "AirSwzzling.h"
-#import "SystemInfo.h"
+#import "AirSystemInfo.h"
 
 
 // UIBase，UI基础控件

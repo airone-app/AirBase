@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version            = "1.0.0"                                             # Pod版本号
   s.summary            = "The base lib of Airone"     # pod的简短介绍，下面是详细介绍
   s.description        = <<-DESC
-                        The base lib of Airone
+                        Contain the base lib of AirOne.
                         DESC
   s.homepage           = "https://www.jyblife.com"        # 项目主页,这里要填写可以访问到的地址，不然验证不通过
   # s.screenshots        = "www.example.com/screenshots_1", "www.example.com/screenshots_2"    # 截图

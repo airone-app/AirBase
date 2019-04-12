@@ -14,8 +14,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
-
-@interface SystemInfo : NSObject
+@interface AirSystemInfo : NSObject
 
 
 // 返回本类提供的所有设备信息

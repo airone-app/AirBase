@@ -5,7 +5,7 @@
 //  Created by luochenxun on 2018/9/17.
 //
 
-#import "SystemInfo.h"
+#import "AirSystemInfo.h"
 #import <sys/socket.h>
 #import <sys/sysctl.h>
 #import <sys/utsname.h>
@@ -21,7 +21,7 @@
 #define IPHONE5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 
 
-@interface SystemInfo ()
+@interface AirSystemInfo ()
 
 @property (nonatomic, strong) NSMutableArray *array;
 @property (retain, nonatomic)NSMutableArray *dirFileList;
@@ -29,7 +29,7 @@
 @end
 
 
-@implementation SystemInfo
+@implementation AirSystemInfo
 
 static const char* jailbreak_apps[] =
 {
@@ -74,7 +74,7 @@ static const char* jailbreak_apps[] =
 +(NSDictionary *)deviceInfo
 {
     NSMutableDictionary *dic=[[NSMutableDictionary alloc]init];
-    NSString *deviceType = [SystemInfo deviceName];
+    NSString *deviceType = [AirSystemInfo deviceName];
     
     NSString *OSVersion = [NSString stringWithFormat:@"%@ %@",[[UIDevice currentDevice] systemName],[[UIDevice currentDevice] systemVersion]];
     [dic setObject:deviceType forKey:@"deviceName"];
@@ -82,13 +82,13 @@ static const char* jailbreak_apps[] =
     [dic setObject:[self getMacAddress] forKey:@"DeviceMac"];
     [dic setObject:[UIDevice currentDevice].model forKey:@"DeviceModel"];
     [dic setObject:[self getDeviceDisplayMetrics] forKey:@"DeviceMetrics"];
-    [dic setObject:[SystemInfo deviceModel] forKey:@"DeviceModelID"];
-    [dic setObject:[SystemInfo getBundleID] forKey:@"BundleID"];
-    [dic setObject:[SystemInfo getLocalAppVersion] forKey:@"AppVersion"];
-    [dic setObject:[SystemInfo getApplicationName] forKey:@"AppName"];
-    [dic setObject:[SystemInfo getDeviceIPAdress] forKey:@"IP"];
-    [dic setObject:@([SystemInfo getBatteryLevel]) forKey:@"BatteryLevel"];
-    [dic setObject:[SystemInfo getBatteryState] forKey:@"BatteryState"];
+    [dic setObject:[AirSystemInfo deviceModel] forKey:@"DeviceModelID"];
+    [dic setObject:[AirSystemInfo getBundleID] forKey:@"BundleID"];
+    [dic setObject:[AirSystemInfo getLocalAppVersion] forKey:@"AppVersion"];
+    [dic setObject:[AirSystemInfo getApplicationName] forKey:@"AppName"];
+    [dic setObject:[AirSystemInfo getDeviceIPAdress] forKey:@"IP"];
+    [dic setObject:@([AirSystemInfo getBatteryLevel]) forKey:@"BatteryLevel"];
+    [dic setObject:[AirSystemInfo getBatteryState] forKey:@"BatteryState"];
     return dic;
 }
 
@@ -99,7 +99,7 @@ static const char* jailbreak_apps[] =
         if (IPHONE5) {
             DisplayMetrics=@"1136*640";
         }
-        if ([SystemInfo iPhoneX]) {
+        if ([AirSystemInfo iPhoneX]) {
             DisplayMetrics = @"2436*1125";
         }
         if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&
