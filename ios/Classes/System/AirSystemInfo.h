@@ -106,6 +106,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)getDeviceLanguage;
 
+
+/**
+ 操作系统版本
+ */
++ (NSString *)systemVersion;
+
 @end
 
 NS_ASSUME_NONNULL_END

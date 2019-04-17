@@ -475,4 +475,9 @@ static const char* jailbreak_apps[] =
     
 }
 
++ (NSString *)systemVersion
+{
+    return [UIDevice currentDevice].systemVersion;
+}
+
 @end
