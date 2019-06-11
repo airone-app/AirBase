@@ -1,9 +1,9 @@
 //
-//  AirBase.h
-//  Base
+// AirBase.h
+// airone
 //
-//  Created by luochenxun on 2018/9/12.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #ifndef AirBase_h
 #define AirBase_h

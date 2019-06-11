@@ -1,9 +1,9 @@
 //
-//  SystemInfo.m
-//  AppBase
+// AirSystemInfo.m
+// airone
 //
-//  Created by luochenxun on 2018/9/17.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import "AirSystemInfo.h"
 #import <sys/socket.h>

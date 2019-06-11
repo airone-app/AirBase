@@ -1,10 +1,9 @@
 //
-//  AirNavigationController.h
-//  AppBase
+// AirNavigationController.h
+// airone
 //
-//  Created by luochenxun on 2018/9/17.
-//
-//  作为整个应用导航的基类，提供方便简洁的导航方法
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import <UIKit/UIKit.h>
 

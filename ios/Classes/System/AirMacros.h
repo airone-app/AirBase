@@ -1,10 +1,9 @@
 //
-//  AirMacros.h
-//  Base
-//  为编程方便提供的宏
+// AirMacros.h
+// airone
 //
-//  Created by luochenxun on 2018/9/12.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #ifndef AirMacros_h
 #define AirMacros_h

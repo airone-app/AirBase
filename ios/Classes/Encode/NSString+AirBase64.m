@@ -1,10 +1,9 @@
 //
-//  NSString+Base64.m
-//  jiayoubao
+// NSString+AirBase64.m
+// airone
 //
-//  Created by candela on 14-7-1.
-//  Copyright (c) 2014年 jtjr99. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import "NSString+AirBase64.h"
 #import "GTMBase64.h"

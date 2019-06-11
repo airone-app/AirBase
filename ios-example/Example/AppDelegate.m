@@ -1,10 +1,9 @@
 //
-//  AppDelegate.m
-//  Example
+// AppDelegate.m
+// airone
 //
-//  Created by luochenxun on 2019/4/11.
-//  Copyright © 2019 airone. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import "AppDelegate.h"
 

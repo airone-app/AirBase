@@ -1,10 +1,9 @@
 //
-//  AppServer.h
-//  XXXX
+// AppService.h
+// airone
 //
-//  Created by luochenxun on 2017/8/22.
-//  Copyright © 2017年 Kacha-Mobile. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #ifndef AppServer_h
 #define AppServer_h

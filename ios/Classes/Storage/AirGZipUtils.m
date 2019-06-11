@@ -1,10 +1,9 @@
 //
-//  GZipUtils.m
-//  jiayoubao
+// AirGZipUtils.m
+// airone
 //
-//  Created by candela on 16/6/22.
-//  Copyright © 2016年 jiayoubao. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import "AirGZipUtils.h"
 #import <zlib.h>

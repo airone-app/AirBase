@@ -1,10 +1,9 @@
 //
-//  NSString+MD5.h
-//  jiayoubao
+// NSString+AirMD5.h
+// airone
 //
-//  Created by candela on 14-6-9.
-//  Copyright (c) 2014年 jtjr99. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import <Foundation/Foundation.h>
 

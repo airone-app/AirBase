@@ -1,10 +1,9 @@
 //
-//  AppDelegateManager.m
-//  xxxx
+// AppServiceManager.m
+// airone
 //
-//  Created by luochenxun on 17/1/11.
-//  Copyright © 2017年 Kacha-Mobile. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import "AppServiceManager.h"
 #import <objc/message.h>

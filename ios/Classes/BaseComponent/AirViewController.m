@@ -1,9 +1,9 @@
 //
-//  AirViewController.m
-//  Base
+// AirViewController.m
+// airone
 //
-//  Created by luochenxun on 2018/9/14.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import "AirViewController.h"
 

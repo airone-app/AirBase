@@ -1,10 +1,9 @@
 //
-//  NSObject_DTRuntime.h
-//  DTFoundation
+// NSObject+Runtime.m
+// airone
 //
-//  Created by Oliver Drobnik on 4/25/12.
-//  Copyright (c) 2012 Cocoanetics. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import <objc/runtime.h>
 

@@ -1,10 +1,9 @@
 //
-//  SystemInfo.h
-//  AppBase
+// AirSystemInfo.h
+// airone
 //
-//  Created by luochenxun on 2018/9/17.
-//
-//    获取系统相关信息（iOS版本、App版本、是否越狱等）
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 
 #import <Foundation/Foundation.h>

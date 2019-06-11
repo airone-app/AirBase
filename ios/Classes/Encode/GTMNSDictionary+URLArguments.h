@@ -1,10 +1,9 @@
 //
-//  GTMNSDictionary.h
-//  jiayoubao
+// GTMNSDictionary+URLArguments.h
+// airone
 //
-//  Created by candela on 15/12/23.
-//  Copyright © 2015年 jtjr99. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 //
 //  GTMNSDictionary+URLArguments.h

@@ -1,10 +1,9 @@
 //
-//  NSObject+JSON.h
-//  jiayoubao
+// NSObject+AirJSON.h
+// airone
 //
-//  Created by candela on 14-7-8.
-//  Copyright (c) 2014年 jtjr99. All rights reserved.
-//
+// Created by luochenxun(luochenxun@gmail.com) on 2019-06-11
+// Copyright (c) 2019年 airone. All rights reserved.
 
 #import <Foundation/Foundation.h>
 
